@@ -183,3 +183,7 @@ temp/
 # external libs zip
 *.zip
 **/simulator/
+/Project/backup
+
+/Project/testGame/Resources/spine
+/Project/testGame/Resources/res

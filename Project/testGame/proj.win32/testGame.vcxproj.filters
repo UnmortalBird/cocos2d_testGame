@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\assets">
+      <UniqueIdentifier>{3da75a66-6d05-49d5-92c7-c95b464b2939}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="AppDelegate.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Hero.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="HeroState.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="AppDelegate.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Hero.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="HeroState.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\assets\.DS_Store">
+      <Filter>resource\assets</Filter>
+    </None>
+    <None Include="..\Resources\assets\hero_2.atlas">
+      <Filter>resource\assets</Filter>
+    </None>
+    <None Include="..\Resources\assets\hero_2.json">
+      <Filter>resource\assets</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\assets\button.png">
+      <Filter>resource\assets</Filter>
+    </Image>
+    <Image Include="..\Resources\assets\hero_2.png">
+      <Filter>resource\assets</Filter>
+    </Image>
+    <Image Include="..\Resources\assets\buttonSelected.png">
+      <Filter>resource\assets</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
